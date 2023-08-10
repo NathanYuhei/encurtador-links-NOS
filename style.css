@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Open Sans', sans-serif;
+
+    --color-primary: #09090B;
+    --color-secondary: #27272A;
+    --color-tertiary: #A1A1AA;
+}
+
+body {
+    text-align: center;
+    font-weight: 400;
+    font-family: var(--font-body);
+}
+
+header {
+    margin: 16px;
+    padding: 27px 240px;
+}
+
+.banner {
+   margin: 121px 16px 160px 16px; 
+}
+
+.banner__title {
+    font-family: var(--font-heading);
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-primary);
+    padding: 8px;
+}
+
+.banner__subtext {
+    font-size: 16px;
+    color: var(--color-primary);
+}
+
+.short {
+    margin-bottom: 354px;
+}
+
+.short__container {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.short__button {
+    width: 46px;
+    height: 46px;
+    padding: 8px;
+    background-image: url("assets/Link.svg");
+    background-color: var(--color-primary);  
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.short__input {
+    width: 25%;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: var(--color-tertiary);
+    border-radius: 8px;
+    border: 2px solid var(--color-tertiary);
+    margin-right: 16px;
+}
+
+.short__history {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+footer {
+    color: var(--color-secondary);
+}
